@@ -12,10 +12,12 @@ To use this template you will need to:
 
 1. Upload your video file to the __media__ folder.
 2. Edit __index.html__ to
-	3. Change the src attribute in the source element. Also change the type if your video is not mp4
-	4. Change the figcaption content to fit your video. If you made it then give yourself credit.
-	5. Change all of the instances of YOUR_NAME in the header and footer.
-	6. Change the text in the h1 from Your Project Name to your project's name.
+   
+	1. Change the src attribute in the source element. Also change the type if your video is not mp4
+	2. Change the figcaption content to fit your video. If you made it then give yourself credit.
+	3. Change all of the instances of YOUR_NAME in the header and footer.
+	4. Change the text in the h1 from Your Project Name to your project's name.
+
 7. Delete these instructions by either removing or changing the README.md file
 8. [optional] You can also edit style.css and change the CSS to update the styling if you like (not required).
 	
