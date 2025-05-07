@@ -1,7 +1,7 @@
 # Video on a Web Page Example
 This is an example template file for how to show a video element on a web page.
 
-1. **index.html** has examples of both using a video element and embedding a YouTube video
+1. **index.html** has a video elment in it already. You can upload your own video and then edit this element to show it.
     1. For the video element you have to upload your video file to the folder named __media__ for this one
 
 ## Instructions
@@ -10,15 +10,16 @@ For this you will edit index.html and upload your video to the media folder.
 
 To use this template you will need to:
 
-1. Upload your video file to the media folder.
-2. Change the src attribute in the source element. Also change the type if your video is not mp4
-3. Change the figcaption content to fit your video. If you made it then give yourself credit.
-4. Change all of the instances of YOUR_NAME in the header and footer.
-5. Change the text in the h1 from Your Project Name to your project's name.
-6. Delete these instructions
-7. You can also change the CSS to update the styling if you like (not required).
+1. Upload your video file to the __media__ folder.
+2. Edit __index.html__ to
+	3. Change the src attribute in the source element. Also change the type if your video is not mp4
+	4. Change the figcaption content to fit your video. If you made it then give yourself credit.
+	5. Change all of the instances of YOUR_NAME in the header and footer.
+	6. Change the text in the h1 from Your Project Name to your project's name.
+7. Delete these instructions by either removing or changing the README.md file
+8. [optional] You can also edit style.css and change the CSS to update the styling if you like (not required).
 	
-When you are editing source element for your video you will also need to make sure the **type** attribute is correct. This is a list of file types with the type attribute values
+When you are editing source element for your video you will also need to make sure the **type** attribute is correct. This is a list of file types with the type attribute values. For most of you, the included example with type .mp4 will be fine. If you are including other types of videos here is a table of common types:
 	
 
 | File    | MIME Type attribute    |
@@ -36,7 +37,7 @@ You can see more here [https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_ty
 
 ### Multiple video file types
 
-To make sure that anyone can view your video you can either upload it to YouTube and then embed it or you can save it as a few different file types and then upload all of these and have a source element for each. The browser will play the first file for which it has the right codec installed.
+You do not have to make multiple types of your video. If you do want to go the extra step and make sure that anyone can view your video you can save it as a few different file types and then upload all of these and have a source element for each. The browser will play the first file for which it has the right codec installed.
 
 ```
 <video controls>
