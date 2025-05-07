@@ -18,7 +18,7 @@ To use this template you will need to:
 	3. Change all of the instances of YOUR_NAME in the header and footer.
 	4. Change the text in the h1 from Your Project Name to your project's name.
 
-7. Delete these instructions by either removing or changing the README.md file
+7. Delete the instructions in index.html. You can also remove the content on this page by either removing or changing the README.md file.
 8. [optional] You can also edit style.css and change the CSS to update the styling if you like (not required).
 	
 When you are editing source element for your video you will also need to make sure the **type** attribute is correct. This is a list of file types with the type attribute values. For most of you, the included example with type .mp4 will be fine. If you are including other types of videos here is a table of common types:
